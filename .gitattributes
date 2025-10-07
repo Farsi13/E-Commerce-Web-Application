@@ -1,2 +1,12 @@
+# Automatically normalize line endings for all text files
+* text=auto
+
+# Force Git to treat Java files as text
+*.java text
+
+# Maven wrapper scripts
 /mvnw text eol=lf
+/mvnw.cmd text eol=crlf
+
+# Windows batch scripts
 *.cmd text eol=crlf
