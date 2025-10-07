@@ -1,15 +1,2 @@
-# Set default behavior to automatically normalize line endings
-* text=auto
-
-# Force Java files to be recognized properly
-*.java text
-
-# Keep shell scripts with LF line endings
-*.sh text eol=lf
-
-# Keep Windows batch scripts with CRLF
-*.cmd text eol=crlf
-
-# Maven wrapper scripts
 /mvnw text eol=lf
-/mvnw.cmd text eol=crlf
+*.cmd text eol=crlf
